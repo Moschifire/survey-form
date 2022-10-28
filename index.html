@@ -24,9 +24,9 @@
             </fieldset>
             <fieldset>
                 <label>Would you recommend us to a friend?
-                    <label><input type="radio" value="1" name="recommendation"> Definitely</label>
-                    <label><input type="radio" value="2" name="recommendation"> Maybe</label>
-                    <label><input type="radio" value="3" name="recommendation"> Not sure</label>
+                    <label><input type="radio" value="1" name="recommendation" class="inline"> Definitely</label>
+                    <label><input type="radio" value="2" name="recommendation" class="inline"> Maybe</label>
+                    <label><input type="radio" value="3" name="recommendation" class="inline"> Not sure</label>
                 </label>
                 <label>What is your favorite feature of our website?
                     <select id="dropdown">
@@ -38,6 +38,12 @@
                     </select>
                 </label>
             </fieldset>
+            <fieldset>
+                <label>Any comments suggestions? 
+                    <textarea name="bio" rows="3" cols="15" placeholder="Enter your comments here"></textarea>
+                </label>
+            </fieldset>
+            <input id="submit" type="submit" value="Submit">
         </form>
     </body>
 </html>
