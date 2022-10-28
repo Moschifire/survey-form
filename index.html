@@ -6,5 +6,38 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body></body>
+    <body>
+        <h1>SURVEY FORM</h1>
+        <p>Thank you for taking out time to fill this form</p>
+        <form>
+            <fieldset>
+                <label id="name-label" for="name">Name <input type="text" id="name" required placeholder="Enter your name"></label>
+                <label id="email-label" for="email">Email <input type="email" id="email" required placeholder="Enter your email"></label>
+                <label id="age-label" for="age">Age (optional) <input type="number" id="age" placeholder="Age" min="18" max="120"></label>
+                <label>Which option best describes your current role
+                    <select id="dropdown">
+                        <option value="">Select current role</option>
+                        <option value="1">Employed</option>
+                        <option value="2">Unemployed</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>Would you recommend us to a friend?
+                    <label><input type="radio" value="1" name="recommendation"> Definitely</label>
+                    <label><input type="radio" value="2" name="recommendation"> Maybe</label>
+                    <label><input type="radio" value="3" name="recommendation"> Not sure</label>
+                </label>
+                <label>What is your favorite feature of our website?
+                    <select id="dropdown">
+                        <option value="">Select</option>
+                        <option value="1">Accessibility</option>
+                        <option value="2">Interface</option>
+                        <option value="3">Simplicity</option>
+                        <option>User-friendly</option>
+                    </select>
+                </label>
+            </fieldset>
+        </form>
+    </body>
 </html>
